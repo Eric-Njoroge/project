@@ -254,11 +254,11 @@ include_once 'header.php';
               </div>
             </div>
 
-            <div class="mb-3 row">
+            <!-- <div class="mb-3 row">
               <label for="passwordField" class="col-md-3 form-label">Password</label>
               <div class="col-md-9">
                 <input type="password" class="form-control" id="passwordField" name="password">
-              </div>
+              </div> -->
             </div>
             <div class="mb-3 row">
               <label for="mobileField" class="col-md-3 form-label">Mobile</label>

@@ -105,7 +105,7 @@ $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 
 	mysqli_stmt_execute($stmt);
 	mysqli_stmt_close($stmt);
-	header("location: ../orders.php?error=none");	
+	header("location: ../login.php?error=none");	
 }
 
 function emptyInputLogin( $email, $password){
@@ -155,9 +155,12 @@ if (isset($_SESSION['email']) && isset($_SESSION['id'])) {
       header("location: ../user.php");
   }elseif ($_SESSION['role']=='Pharmacist') {
     header("location: ../orders.php");
+  }elseif (!isset($_SESSION['email']) && !isset($_SESSION['id'])){
+
+	header("location: ../login.php");
   }
  else {
-  header("location: ../home.php");
+  header("location: ../logout.php");
   }
 		
 

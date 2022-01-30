@@ -158,22 +158,22 @@ include('functions.php');
 
 		<!-- Nav Item - Charts -->
 		<li class="nav-item">
-			<a class="nav-link" href="jaribu.php">
-				<i class="fas fa-fw fa-chart-area"></i>
+			<a class="nav-link" href="lowStock.php">
+				<!-- <i class="fas fa-fw fa-chart-area"></i> -->
 				<span>Low Stock</span></a>
 		</li>
 
 		<!-- Nav Item - Suppliers -->
 		<li class="nav-item">
 			<a class="nav-link" href="suppliers.php">
-				<i class="fas fa-fw fa-chart-area"></i>
+				<!-- <i class="fas fa-fw fa-chart-area"></i> -->
 				<span>Suppliers</span></a>
 		</li>
 
 			<!-- Nav Item - Products -->
 			<li class="nav-item">
 			<a class="nav-link" href="products.php">
-				<i class="fas fa-fw fa-chart-area"></i>
+				<!-- <i class="fas fa-fw fa-chart-area"></i> -->
 				<span>Products</span></a>
 		</li>
        
@@ -191,7 +191,7 @@ include('functions.php');
         	<!-- Nav Item - LOgout -->
 			<li class="nav-item">
 			<a class="nav-link" href="logout.php">
-				<i class="fas fa-fw fa-chart-area"></i>
+				<!-- <i class="fas fa-fw fa-chart-area"></i> -->
 				<span>Logout</span></a>
 		</li>
 

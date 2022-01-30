@@ -22,7 +22,7 @@ error_reporting(0);
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Register</title>
+    <title>SB Order Management - Register</title>
 
     <!-- Custom fonts for this template-->
 
@@ -39,11 +39,11 @@ error_reporting(0);
     <div class="container">
 
         <div class="card o-hidden border-0 shadow-lg my-5">
-            <div class="card-body p-0">
+            <div class="">
                 <!-- Nested Row within Card Body -->
-                <div class="row">
-                    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
-                    <div class="col-lg-7">
+                <div class="">
+                    <!-- <div class="col-lg-5 d-none d-lg-block bg-register-image"></div> -->
+                    <div class="">
                         <div class="p-5">
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>

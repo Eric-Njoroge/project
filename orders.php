@@ -5,7 +5,7 @@ include_once 'header.php';
 ?>
 
 
-hello world
+
 <div class="">
 	<div class="container-fluid">
 		<div class="col-md-12 bg-light text-right">
@@ -226,7 +226,7 @@ hello world
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="example1ModalLabel">Update User</h5>
+				<h5 class="modal-title" id="example1ModalLabel">Update Order</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">
@@ -260,13 +260,13 @@ hello world
 					<div class="mb-3 row">
 						<label for="dateField" class="col-md-3 form-label">date</label>
 						<div class="col-md-9">
-							<input type="text" class="form-control" id="dateField" name="date">
+							<input type="date" class="form-control" id="dateField" name="date">
 						</div>
 					</div>
 					<div class="mb-3 row">
 						<label for="createdbyField" class="col-md-3 form-label">createdby</label>
 						<div class="col-md-9">
-							<input type="text" class="form-control" id="createdby" name="createdby">
+							<input type="text" class="form-control" value= " <?php echo $_SESSION['firstname']; ?>"id="createdby" name="createdby">
 						</div>
 					</div>
 
@@ -286,7 +286,7 @@ hello world
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="example1ModalLabel">Add User</h5>
+				<h5 class="modal-title" id="example1ModalLabel">PLace an Order</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">
@@ -328,7 +328,7 @@ hello world
 					<div class="mb-3 row">
 						<label for="addCreatedbyField" class="col-md-3 form-label">Created By</label>
 						<div class="col-md-9">
-							<input type="text" class="form-control" id="addCreatedbyField" name="createdby">
+							<input type="text" class="form-control" id="addCreatedbyField" value=" <?php echo $_SESSION['firstname']; ?>" name="createdby">
 						</div>
 					</div>
 					<!-- <div class="mb-3 row">
